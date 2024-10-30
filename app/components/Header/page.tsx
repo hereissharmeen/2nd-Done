@@ -1,11 +1,19 @@
 import styles from './header.module.css';
 
-const header = () => {
+const Header = () =>{
   return (
     <header className={styles.header}>
-      <h1>My Next.js Website</h1>
+        <ul className={styles.navList}>
+          <li className={styles.navItem}><a href="#" className={styles.navLink}>Home</a></li>
+          <li className={styles.navItem}><a href="/about" className={styles.navLink}>About</a></li>
+          <li className={styles.navItem}><a href="/contact" className={styles.navLink}>Contact</a></li>
+          <li className={styles.navItem}><a href="/service" className={styles.navLink}>Services</a></li>
+        </ul>
+      
     </header>
   );
 };
 
-export default header;
+export default Header;
+
+

@@ -1,7 +1,29 @@
 .header {
-    background-color: #333;
-    color: white;
+    background-color: #c3c3c3;
+    color: #3b3b3b;
     padding: 20px;
     text-align: center;
   }
+  .navList {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+  }
+  
+  .navItem {
+    margin: 0 15px; 
+  }
+  
+  .navLink {
+    text-decoration: none; 
+    color: #0c0c0c; 
+    font-weight: bold;
+  }
+  
+  .navLink:hover {
+    color: #1fbe22; 
+  }
+
   

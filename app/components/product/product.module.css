@@ -1,0 +1,47 @@
+.productSection {
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.boxContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.box {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px;
+  max-width: 250px;
+  text-align: center;
+}
+
+.image {
+  width: 200px; 
+  height: 200px; 
+  object-fit: cover; 
+  border-radius: 5px;
+}
+
+.boxTitle {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.boxPrice {
+  font-size: 16px;
+  color: #333;
+}
+
+.box:hover {
+  transform: scale(1.05); 
+}
+  

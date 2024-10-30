@@ -1,18 +1,16 @@
-// import Header from './components/Header';
-// import Hero from './components/footer';
-// import Footer from './components/Hero';
-
-import Header from "./components/Header/page";
-import Footer from "./components/Footer/page";
-import Hero from "./components/Hero/page";
+import Header from "./components/header/page";
+import Hero from "./components/hero/page";
+import ProductSection from "./components/product/page";
+import Footer from "./components/footer/page";
 
 export default function Home() {
   return (
     <div>
       <Header />
       <Hero />
-      <Footer /> 
+      <ProductSection />
+      <Footer />
+      
     </div>
   );
-}
-
+};

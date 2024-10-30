@@ -3,4 +3,36 @@
     padding: 50px;
     text-align: center;
   }
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    min-height: 80vh; 
+    background-color: #f0f4f8; 
+    padding: 12rem;
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .hero h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 1rem;
+  }
+  .hero p {
+    font-size: 1.5rem;
+    color: #fffbfb;
+  }
+  
+  .hero img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    border-radius: 10px;
+  }
+  
   
